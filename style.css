@@ -197,7 +197,7 @@ footer[role=contentinfo] img {
 .col-group { display: none; }
 .logo { display: block; margin: 0 auto; }
 .empty { width: 0; display: none; }
-.twitter-bird { display: inline-block; background-image: url(twitter-bird.png); width: 27px; height: 21px; }
+.twitter-bird { display: inline-block; background-image: url(twitter-bird.png); width: 27px; height: 21px; background-repeat: no-repeat; }
 .map-pin { display: inline-block; background-image: url(map-pin.png); width: 8px; height: 16px; margin-right: 10px; position: relative; top: 2px;  }
 .hashtag { font-size: 28px; margin-left: 5px; }
 .strong { color: white; }
