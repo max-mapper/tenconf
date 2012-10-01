@@ -126,6 +126,8 @@ div[role=main] {
 	padding-bottom: 1em;
 }
 
+div.col-group {width:100%;}
+
 /*Footer*/
 footer[role=contentinfo] {
 	color: #fff;
@@ -173,8 +175,8 @@ footer[role=contentinfo] img {
 .locationContainer { padding-top: 60px; margin-bottom: 60px; color: #ddd; }
 .description ul, .description ol { margin-bottom: 2em; }
 .description li { margin-bottom: 1em; }
-.sponsor { margin-bottom: 10px; }
-.speaker img { border-radius: 1000px; }
+.sponsor { margin-bottom: 10px;}
+.speaker img { border-radius: 1000px; width:150px; }
 .speaker { position: relative; margin-bottom: 10px; }
 .speaker .name { display: block; font-size: 20px; margin-top: 10px; }
 .speaker::after { content: ""; opacity: 0.5; background: #ffbc11; position: absolute; top: 0; left: 0; right: 0; bottom: 30px; }
@@ -208,7 +210,7 @@ footer[role=contentinfo] img {
 /******Media Queries*******/
 
 @media all and (min-width:40em) {
-  .nav { height: auto; }
+  .nav { height: auto;}
   .col-group { display: none; }
   h1 { font-size: 26px; }
 	h2 { font-size: 16px; }
